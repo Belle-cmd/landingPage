@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+
+/* Header */
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+}
+.header p {
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+}
+ul {
+    list-style-type: none;
+}
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
