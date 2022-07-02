@@ -61,6 +61,8 @@ body {
 .main-info-text h1 {
     font-size: 48px;
     color: #F9FAF8;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .main-info-text p {
     text-align: justify;
@@ -74,4 +76,34 @@ button {
     border-radius: 25px;
     font-size: 20px;
     color: white;
+    margin-left: 0px;
+}
+
+
+/* Benefits section */
+.benefits-title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.benefits {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    padding: 15px;
+    max-width: 200px;
+}
+.card img {
+    width: 160px;
+    height: 150px;
+}
+.card p {
+    text-align: justify;
+}
+.benefits-container {
+    padding: 100px;
 }
