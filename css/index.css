@@ -40,9 +40,38 @@ body {
 
 /* main-info */
 .main-info {
+    display: flex;
     background-color: #1F2937;
-
+}
+.main-info img {
+    padding: 100px 150px;
+    padding-left: 30px;
+    max-width: 370px;
+    height: auto;
+}
+.main-info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 40px;
+}
+.main-info-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.main-info-text p {
+    text-align: justify;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 button {
     background-color: #3882F6;
+    padding: 10px 35px;
+    margin: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
 }
