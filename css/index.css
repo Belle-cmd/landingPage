@@ -154,3 +154,12 @@ button {
 .sign-up-container p {
     margin: 0;
 }
+
+
+/* footer */
+footer {
+    padding: 30px;
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+}
