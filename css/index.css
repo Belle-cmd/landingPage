@@ -75,7 +75,8 @@ button {
     background-color: #3882F6;
     padding: 10px 35px;
     margin: 10px;
-    border-radius: 25px;
+    border-radius: 15px;
+    border-color: white;
     font-size: 20px;
     color: white;
     margin-left: 0px;
@@ -130,4 +131,26 @@ button {
     font-size: 20px;
     font-weight: 500;
     justify-content: flex-end;
+}
+
+
+/* Sign up section */
+.sign-up {
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px;
+}
+.sign-up-container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px 150px;
+    gap: 100px;
+    color: white;
+    border-radius: 15px;
+}
+.sign-up-container h3 {
+    margin: 0;
+}
+.sign-up-container p {
+    margin: 0;
 }
