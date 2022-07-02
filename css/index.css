@@ -29,7 +29,7 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 16px;
+    gap: 20px;
 }
 .header-right a {
     font-size: 18px;
@@ -41,8 +41,7 @@ body {
 /* main-info */
 .main-info {
     background-color: #1F2937;
-    justify-content: center;
-    align-items: center;
+
 }
 button {
     background-color: #3882F6;
