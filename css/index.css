@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto';
     margin: 0;
+    background-color: white;
 }
 
 /* Header where links are included*/
@@ -59,6 +60,7 @@ body {
     padding-right: 40px;
 }
 .main-info-text h1 {
+    font-weight: 400;
     font-size: 48px;
     color: #F9FAF8;
     margin-top: 20px;
@@ -83,7 +85,7 @@ button {
 /* Benefits section */
 .benefits-title {
     text-align: center;
-    font-weight: 900;
+    font-weight: 400;
     font-size: 40px;
     padding-bottom: 30px;
 }
@@ -106,4 +108,26 @@ button {
 }
 .benefits-container {
     padding: 100px;
+}
+
+
+/* Quote section */
+.quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 230px
+}
+.quote-text {
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-name {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: flex-end;
 }
