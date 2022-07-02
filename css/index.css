@@ -2,25 +2,48 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
+    margin: 0;
 }
 
-/* Header */
+/* Header where links are included*/
 .header {
     display: flex;
-    background-color: #1F2937;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 20px 40px;
 }
-.header p {
+.header-left {
+    display: flex;
+}
+.header-left p {
     font-weight: 900;
     font-size: 24px;
     color: white;
 }
-ul {
-    list-style-type: none;
+.header-left img {
+    max-width: 100px;
 }
-.header a {
+.header-right {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+.header-right a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+
+/* main-info */
+.main-info {
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: #3882F6;
 }
